@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-		<title>Experiences</title>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<title>Skills</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -10,6 +10,20 @@
 			<link rel="stylesheet" href="assets/css/noscript.css" />
 		</noscript>
 	</head>
+	<style>
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 20px;
+		}
+
+		.skill-category {
+			background: #fff;
+			padding: 15px;
+			border-radius: 8px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+	</style>
 	<body class="is-preload">
 		<!-- Wrapper -->
 		<div id="wrapper">
@@ -23,13 +37,13 @@
 					<li>
 						<a href="index.html">About</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="generic.html">Experiences</a>
 					</li>
 					<li>
 						<a href="elements.html">Projects</a>
 					</li>
-					<li>
+					<li class="active">
 						<a href="section.html">Skills</a>
 					</li>
 				</ul>
@@ -56,46 +70,59 @@
 				<!-- Post -->
 				<section class="post">
 					<header class="major">
-						<h1>Professional Experience</h1>
+						<h1>Skills Snapshot</h1>
 					</header>
-					<!-- Text stuff -->
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Research Analyst</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">University at Buffalo, SUNY</p>
-						<p style="line-height: 1.6; margin-bottom: 20px;"> Conducting in-depth analysis of biotech and medical commercialization data to drive strategic research initiatives. Leveraging data collection and visualization to deliver actionable insights, improve study accuracy, and enhance decision-making efficiency. </p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
+					<div class="skills">
+						<!-- Text stuff -->
+						<div class="skill-category">
+							<h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Data Analysis</h2>
+							<ul>
+								<li>SQL, Python, R</li>
+								<li>Tableau, Power BI, Looker, Excel</li>
+								<li>Time Series Forecasting, Trend Analysis</li>
+								<li>Statistical Analysis</li>
+							</ul>
+						</div>
+						<div class="skill-category">
+							<h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Technical Skills</h2>
+							<ul>
+								<li>Databases: MySQL, Snowflake</li>
+								<li>ETL Tools: Informatica, Alteryx</li>
+								<li>API Integration</li>
+								<li>Cloud: AWS, GCP</li>
+							</ul>
+						</div>
 					</div>
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Business Intelligence Analyst</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">University at Buffalo, SUNY</p>
-						<p style="line-height: 1.6; margin-bottom: 20px;"> Extracted and analyzed large datasets to identify trends, improve data quality, and streamline processes. Worked closely with leadership to develop insightful reports, resolve data issues, and align technological strategies with business objectives. </p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
+					<br>
+					<div class="skills">
+						<div class="skill-category">
+							<h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Analytical Skills</h2>
+							<ul>
+								<li>Data Anomaly Detection</li>
+								<li>KPI Development</li>
+								<li>Report Automation</li>
+								<li>Root Cause Analysis</li>
+							</ul>
+						</div>
+						<div class="skill-category">
+							<h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Soft Skills</h2>
+							<ul>
+								<li>Data Storytelling</li>
+								<li>Stakeholder Management</li>
+								<li>Business Acumen</li>
+								<li>Cross-Functional Collaboration</li>
+							</ul>
+						</div>
 					</div>
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Business Intelligence Developer</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">PricewaterhouseCoopers</p>
-						<p style="line-height: 1.6; margin-bottom: 20px;"> Designed and deployed scalable ETL frameworks and BI dashboards for enterprise clients, ensuring secure, near real-time data insights. Optimized workflows, automated validations, and collaborated with stakeholders to maintain data accuracy and compliance. </p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
-					</div>
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Data Intern</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">TATA Motors, Ltd.</p>
-						<p style="line-height: 1.6; margin-bottom: 20px;"> Built centralized data models and pipelines for financial metrics, improving accessibility and forecasting accuracy. Developed real-time dashboards and implemented effective data warehousing solutions to streamline reporting processes. </p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
-					</div>
-					<header class="major">
-						<h1>Education</h1>
-					</header>
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Master's in Management Information Systems</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">University at Buffalo, State University of New York</p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
-					</div>
-					<div style="margin-bottom: 30px;">
-						<h2 style="font-size: 24px; margin-bottom: 10px;">Bachelor's of Engineering in Electronics and Telecommunications</h2>
-						<p style="font-style: italic; margin-bottom: 10px;">Savitribai Phule Pune University</p>
-						<hr style="border: 1px solid #ccc; margin-top: 20px;">
-					</div>
+                    <br>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Domain Expertise</h2>
+                            <p style="text-align:center">
+                                Marketing Analytics | Financial Analysis | Healthcare Data
+                            </p>
+                        </div>
+                    </div>
 			</div>
 			<!-- Footer -->
 			<footer id="footer" style="padding: 0px; margin-top: 0px; text-align: center;">
